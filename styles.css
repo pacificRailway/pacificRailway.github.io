@@ -65,7 +65,6 @@ footer {
 #map-controls {
     margin: 0;
     padding: 0;
-    font-size: 0; /* Set font size of parent container to zero */
 }
 
 #map-controls button {
@@ -75,7 +74,6 @@ footer {
     color: #fff;
     border: none;
     cursor: pointer;
-    font-size: 16px; /* Reset font size for buttons */
 }
 
 #map-controls button:hover {
