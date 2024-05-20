@@ -79,17 +79,6 @@ footer {
     background-color: #555;
 }
 
-#map-controls {
-    display: flex;
-    flex-wrap: wrap; /* Allows buttons to wrap to the next line if necessary */
-    justify-content: center; /* Centers the buttons horizontally */
-    align-items: flex-end; /* Aligns the buttons to the bottom of the container */
-}
-
-#map-controls button {
-    margin: 5px; /* Adjust spacing between buttons */
-}
-
 #timeline {
     margin: 2rem 0;
 }
