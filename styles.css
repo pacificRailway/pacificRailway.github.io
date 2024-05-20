@@ -78,3 +78,61 @@ footer {
 #map-controls button:hover {
     background-color: #555;
 }
+
+#timeline {
+    margin: 2rem 0;
+}
+
+#timeline ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#timeline ul li {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    background: #e4e4e4;
+    border-radius: 5px;
+}
+
+#timeline ul li strong {
+    color: #333;
+}
+
+#historical-photos {
+    margin: 2rem 0;
+}
+
+.photo {
+    margin-bottom: 2rem;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.photo p {
+    font-style: italic;
+    color: #666;
+}
+
+#personal-stories {
+    margin: 2rem 0;
+}
+
+.story {
+    margin-bottom: 2rem;
+}
+
+.story h3 {
+    margin-bottom: 0.5rem;
+}
+
+.story p:last-child {
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #666;
+}
