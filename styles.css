@@ -65,10 +65,13 @@ footer {
 #map-controls {
     position: fixed;
     bottom: 0;
-    left: 0;
-    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: #333;
     padding: 1rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 #map-controls button {
