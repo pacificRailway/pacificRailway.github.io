@@ -46,3 +46,35 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+#interactive-map {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#map-container {
+    position: relative;
+    display: inline-block;
+}
+
+#map {
+    max-width: 100%;
+    height: auto;
+}
+
+#map-controls {
+    margin-top: 1rem;
+}
+
+#map-controls button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#map-controls button:hover {
+    background-color: #555;
+}
