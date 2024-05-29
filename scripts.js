@@ -36,6 +36,14 @@ document.addEventListener('DOMContentLoaded', () => {
     function showYear(year) {
         console.log(`Showing information for the year ${year}`);
 
+        // Remove the .selected class from all buttons
+        document.querySelectorAll('#map-controls button').forEach(button => {
+            button.classList.remove('selected');
+        });
+
+        // Add the .selected class to the button corresponding to the selected year
+        document.querySelector(`#map-controls button[data-year="${year}"]`).classList.add('selected');
+
         // Clear existing pins
         map.eachLayer(layer => {
             if (layer instanceof L.Marker) {
@@ -64,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function moveForward() {
     // Get the currently selected year
-    var currentYear = parseInt(document.querySelector('#map-controls .selected').textContent);
+    var currentYear = parseInt(document.querySelector('#map-controls .selected').dataset.year);
 
     // Increment the year by 5 and ensure it does not exceed 1950
     var newYear = Math.min(currentYear + 5, 1950);
@@ -75,7 +83,7 @@ function moveForward() {
 
 function moveBackward() {
     // Get the currently selected year
-    var currentYear = parseInt(document.querySelector('#map-controls .selected').textContent);
+    var currentYear = parseInt(document.querySelector('#map-controls .selected').dataset.year);
 
     // Decrement the year by 5 and ensure it does not go below 1850
     var newYear = Math.max(currentYear - 5, 1850);
