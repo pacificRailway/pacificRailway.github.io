@@ -61,3 +61,25 @@ document.addEventListener('DOMContentLoaded', () => {
     // Attach showYear function to window for button clicks
     window.showYear = showYear;
 });
+
+function moveForward() {
+    // Get the currently selected year
+    var currentYear = parseInt(document.querySelector('#map-controls .selected').textContent);
+
+    // Increment the year by 5 and ensure it does not exceed 1950
+    var newYear = Math.min(currentYear + 5, 1950);
+
+    // Call the showYear function with the new year
+    showYear(newYear);
+}
+
+function moveBackward() {
+    // Get the currently selected year
+    var currentYear = parseInt(document.querySelector('#map-controls .selected').textContent);
+
+    // Decrement the year by 5 and ensure it does not go below 1850
+    var newYear = Math.max(currentYear - 5, 1850);
+
+    // Call the showYear function with the new year
+    showYear(newYear);
+}
