@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Map - Railroads of the Pacific Northwest</title>
-    <link rel="stylesheet" href="/css/styles.css">
-    <script src="js/scripts.js" defer></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="../js/scripts.js" defer></script>
+    <style>
+        #map-container {
+            height: 600px; /* Adjust the height as needed */
+            width: 100%;
+            position: relative;
+        }
+        #map {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -22,13 +35,11 @@
             </ul>
         </nav>
     </header>
-    <main> 
+    <main>
         <section id="interactive-map">
             <h2>Interactive Map</h2>
             <div id="map-container">
-                <img src="../images/pnw-map.png" alt="Pacific Northwest Map" id="map">
-                <div id="pins"></div>
-                <div class="summary" id="summary"></div>
+                <div id="map"></div>
             </div>
             <div id="map-controls">
                 <button onclick="showYear(1850)">1850</button>
@@ -37,7 +48,8 @@
                 <button onclick="showYear(1865)">1865</button>
                 <button onclick="showYear(1870)">1870</button>
                 <button onclick="showYear(1875)">1875</button>
-                <button onclick="showYear(1885)">1880</button>
+                <button onclick="showYear(1880)">1880</button>
+                <button onclick="showYear(1885)">1885</button>
                 <button onclick="showYear(1890)">1890</button>
                 <button onclick="showYear(1895)">1895</button>
                 <button onclick="showYear(1900)">1900</button>
