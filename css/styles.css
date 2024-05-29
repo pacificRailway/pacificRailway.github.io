@@ -82,17 +82,23 @@ footer {
 }
 
 #map-controls {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    justify-content: center;
     margin: 0;
     padding: 0;
+    gap: 5px; /* Adjust the gap between buttons if needed */
 }
 
 #map-controls button {
+    padding: 5px 10px; /* Adjust padding values as needed */
     margin: 0;
-    padding: 0;
     background-color: #333;
     color: #fff;
     border: none;
     cursor: pointer;
+    flex-shrink: 0; /* Prevent buttons from shrinking */
 }
 
 #map-controls button:hover {
@@ -184,20 +190,7 @@ footer {
     border: 1px solid black;
     padding: 10px;
     z-index: 10;
-    width: 200px; /* width */ 
+    width: 200px; /* width */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
-}
-
-#map-controls button {
-    margin: 5px;
-    padding: 10px 15px;
-    background-color: #333;
-    color: #fff; 
-    border: none;
-    cursor: pointer;
-}
-
-#map-controls button:hover {
-    background-color: #555;
 }
