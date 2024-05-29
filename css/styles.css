@@ -53,6 +53,7 @@ nav a:hover {
 
 main {
     padding: 2rem;
+    padding-bottom: 50px; /* Ensures main content has enough space at the bottom */
     background: #fff;
 }
 
