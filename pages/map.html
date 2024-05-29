@@ -6,6 +6,30 @@
     <title>Interactive Map - Railroads of the Pacific Northwest</title>
     <link rel="stylesheet" href="/css/styles.css">
     <script src="js/scripts.js" defer></script>
+    <style>#map-container {
+        position: relative;
+    }
+    #map {
+        width: 100%;
+        height: auto;
+    }
+    .pin {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: red;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .summary {
+        display: none;
+        position: absolute;
+        background: white;
+        border: 1px solid black;
+        padding: 10px;
+        z-index: 10;
+    }
+    </style>
 </head>
 <body>
     <header>
