@@ -6,30 +6,6 @@
     <title>Interactive Map - Railroads of the Pacific Northwest</title>
     <link rel="stylesheet" href="/css/styles.css">
     <script src="js/scripts.js" defer></script>
-    <style>#map-container {
-        position: relative;
-    }
-    #map {
-        width: 100%;
-        height: auto;
-    }
-    .pin {
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        background: red;
-        border-radius: 50%;
-        cursor: pointer;
-    }
-    .summary {
-        display: none;
-        position: absolute;
-        background: white;
-        border: 1px solid black;
-        padding: 10px;
-        z-index: 10;
-    }
-    </style>
 </head>
 <body>
     <header>
@@ -51,7 +27,8 @@
             <h2>Interactive Map</h2>
             <div id="map-container">
                 <img src="images/pnw-map.png" alt="Pacific Northwest Map" id="map">
-                <!-- Interactive elements will be added here -->
+                <div id="pins"></div>
+                <div class="summary" id="summary"></div>
             </div>
             <div id="map-controls">
                 <button onclick="showYear(1850)">1850</button>

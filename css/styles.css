@@ -156,3 +156,48 @@ footer {
     font-style: italic;
     color: #666;
 }
+
+#map-container {
+    position: relative;
+    display: inline-block;
+}
+
+#map {
+    max-width: 100%;
+    height: auto;
+}
+
+.pin {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+
+.summary {
+    display: none;
+    position: absolute;
+    background: white;
+    border: 1px solid black;
+    padding: 10px;
+    z-index: 10;
+    width: 200px; /* width */ 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+#map-controls button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+}
+
+#map-controls button:hover {
+    background-color: #555;
+}
