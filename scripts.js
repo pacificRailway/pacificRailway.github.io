@@ -1,7 +1,11 @@
 // Updated pinsData object with corrected syntax
 const pinsData = {
     1839: [
-        { x: 100, y: 150, summary: "Event 1", link: "/events/event1.html" },
+        { x: 100, y: 100, summary: "Lewis and Clark Expedition (1804-1806): The expedition mapped the Pacific Northwest and provided valuable information about the region.", link: "/events/lewis-clark.html" },
+        { x: 200, y: 200, summary: "Astoria Established (1811): John Jacob Astor's Pacific Fur Company established Astoria, the first American settlement on the Pacific coast.", link: "/events/astoria.html" },
+        { x: 300, y: 300, summary: "Oregon Trail (1830s): The establishment of the Oregon Trail facilitated westward migration and increased interest in the Pacific Northwest.", link: "/events/oregon-trail.html" },
+        { x: 400, y: 400, summary: "Fort Vancouver (1824): The Hudson's Bay Company established Fort Vancouver, becoming a central hub for the fur trade in the region.", link: "/events/fort-vancouver.html" },
+        { x: 600, y: 600, summary: "Treaty of 1818: This treaty allowed for joint occupation of the Oregon Territory by the United States and Great Britain, setting the stage for future negotiations and settlement.", link: "/events/treaty-1818.html" }
     ],
     1855: [
         { x: 200, y: 250, summary: "Event 2", link: "/events/event2.html" },
@@ -16,6 +20,7 @@ const pinsData = {
         { x: 500, y: 550, summary: "Event 5", link: "/events/event5.html" },
     ]
 };
+
 
 // Updated mapImages object to store map images for different years
 const mapImages = {
