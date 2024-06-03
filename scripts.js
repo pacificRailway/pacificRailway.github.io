@@ -57,30 +57,32 @@ document.addEventListener('DOMContentLoaded', () => {
     map.fitBounds(imageBounds);
 
     // Function to show pins for the selected year and change the map image
+    // Function to show pins for the selected year and change the map image
     function showYear(year) {
         console.log(`Showing information for the year ${year}`);
-
+    
         // Change the map image
         imageLayer.setUrl(mapImages[year]);
-
+    
         // Remove the .selected class from all buttons
         document.querySelectorAll('#map-controls button').forEach(button => {
             button.classList.remove('selected');
         });
-
+    
         // Add the .selected class to the button corresponding to the selected year
         document.querySelector(`#map-controls button[data-year="${year}"]`).classList.add('selected');
-
+    
         // Update the context information
-        document.getElementById('context').textContent = contextData[year];
-
+        const contextDiv = document.getElementById('context');
+        contextDiv.textContent = contextData[year]; // Make sure contextData is correctly defined
+    
         // Clear existing pins
         map.eachLayer(layer => {
             if (layer instanceof L.Marker) {
                 map.removeLayer(layer);
             }
         });
-
+    
         // Add new pins for the selected year
         if (pinsData[year]) {
             pinsData[year].forEach(pin => {
@@ -92,6 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
     }
+    
 
     // Initialize with the first year
     showYear(1839);
