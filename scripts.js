@@ -1,14 +1,25 @@
 // Updated pinsData object with corrected syntax
 const pinsData = {
     1839: [
-        { x: 1765, y: 1285, summary: "Lewis and Clark Expedition (1804-1806): The expedition mapped the Pacific Northwest and provided valuable information about the region.", link: "/events/lewis-clark.html" },
-        { x: 920, y: 1135, summary: "Astoria Established (1811): John Jacob Astor's Pacific Fur Company established Astoria, the first American settlement on the Pacific coast.", link: "/events/astoria.html" },
-        { x: 2105, y: 1425, summary: "Oregon Trail (1830s): The establishment of the Oregon Trail facilitated westward migration and increased interest in the Pacific Northwest.", link: "/events/oregon-trail.html" },
-        { x: 1270, y: 1445, summary: "Fort Vancouver (1824): The Hudson's Bay Company established Fort Vancouver, becoming a central hub for the fur trade in the region.", link: "/events/fort-vancouver.html" },
-        { x: 1850, y: 460, summary: "Treaty of 1818: This treaty allowed for joint occupation of the Oregon Territory by the United States and Great Britain, setting the stage for future negotiations and settlement.", link: "/events/treaty-1818.html" }
+        { x: 1765, y: 1285, summary: "Lewis and Clark Expedition (1804-1806): The expedition mapped the Pacific Northwest and provided valuable information about the region.", link: "https://en.wikipedia.org/wiki/Lewis_and_Clark_Expedition" },
+        { x: 920, y: 1135, summary: "Astoria Established (1811): John Jacob Astor's Pacific Fur Company established Astoria, the first American settlement on the Pacific coast.", link: "https://en.wikipedia.org/wiki/Astoria,_Oregon#History" },
+        { x: 2105, y: 1425, summary: "Oregon Trail (1830s): The establishment of the Oregon Trail facilitated westward migration and increased interest in the Pacific Northwest.", link: "https://en.wikipedia.org/wiki/Oregon_Trail" },
+        { x: 1270, y: 1445, summary: "Fort Vancouver (1824): The Hudson's Bay Company established Fort Vancouver, becoming a central hub for the fur trade in the region.", link: "https://en.wikipedia.org/wiki/Fort_Vancouver" },
+        { x: 1850, y: 460, summary: "Treaty of 1818: This treaty allowed for joint occupation of the Oregon Territory by the United States and Great Britain, setting the stage for future negotiations and settlement.", link: "https://en.wikipedia.org/wiki/Treaty_of_1818" }
     ],
     1855: [
-        { x: 200, y: 250, summary: "Event 2", link: "/events/event2.html" },
+        { x: 660, y: 730, summary: "Oregon Trail Peak Migration (1840-1860): Thousands of settlers traveled west, increasing demand for transportation and infrastructure.", link: "https://en.wikipedia.org/wiki/Oregon_Trail#Usage" },
+        { x: 1475, y: 905, summary: "Whitman Mission Established (1836): Dr. Marcus Whitman established a mission in Walla Walla, fostering early settlement and conflict.", link: "https://en.wikipedia.org/wiki/Whitman_Mission" },
+        { x: 1045, y: 1275, summary: "Oregon Territory Created (1848): The United States established the Oregon Territory, formalizing American claims in the region.", link: "https://en.wikipedia.org/wiki/Oregon_Territory" },
+        { x: 630, y: 1775, summary: "California Gold Rush (1848-1855): The influx of people to California heightened interest in the Pacific Northwest as a transportation route.", link: "https://en.wikipedia.org/wiki/California_Gold_Rush" },
+        { x: 800, y: 950, summary: "Donation Land Claim Act (1850): This act encouraged settlement in Oregon by offering land to pioneers, increasing population and economic activity.", link: "https://en.wikipedia.org/wiki/Donation_Land_Claim_Act" },
+        { x: 1050, y: 945, summary: "Fort Dalles Established (1850): Fort Dalles served as a supply center and military post, aiding in the protection and development of the area.", link: "https://en.wikipedia.org/wiki/Fort_Dalles" },
+        { x: 1050, y: 565, summary: "Pacific Railroad Surveys (1853-1855): Surveys were conducted to find the best routes for a transcontinental railroad, highlighting the importance of the Pacific Northwest.", link: "https://en.wikipedia.org/wiki/Pacific_Railroad_Surveys" },
+        { x: 840, y: 565, summary: "Territory of Washington Created (1853): The creation of Washington Territory facilitated more focused governance and development efforts.", link: "https://en.wikipedia.org/wiki/Washington_Territory" },
+        { x: 925, y: 560, summary: "Treaty of Medicine Creek (1854): This treaty with local Native American tribes aimed to secure land for settlers, though it led to significant conflict.", link: "https://en.wikipedia.org/wiki/Treaty_of_Medicine_Creek" },
+        { x: 550, y: 600, summary: "Seattle Founded (1851): The establishment of Seattle as a key settlement marked the beginning of its growth into a major city.", link: "https://en.wikipedia.org/wiki/History_of_Seattle" },
+        { x: 1125, y: 750, summary: "Yakima War (1855-1858): Conflict between settlers and the Yakama Nation over land and resources, impacting the stability and development of the region.", link: "https://en.wikipedia.org/wiki/Yakima_War" },
+        { x: 885, y: 510, summary: "Puget Sound Agricultural Company (1852): Established by the Hudson's Bay Company, it played a significant role in the early economy of the region.", link: "https://en.wikipedia.org/wiki/Puget_Sound_Agricultural_Company" }
     ],
     1875: [
         { x: 300, y: 350, summary: "Event 3", link: "/events/event3.html" },
