@@ -51,6 +51,7 @@ const mapImages = {
     1875: '../images/1875_crop.png',
     1900: '../images/1900_crop.png',
     1921: '../images/1921_crop.png'
+    2000: '../images/Pop_density.png'
 };
 
 // Context information for each year
@@ -60,6 +61,7 @@ const contextData = {
     1875: `After the development of the Oregon trail, rapid industrialization saw the expansion of transportation networks, particularly the construction of railways. The completion of the Transcontinental Railroad in 1869 connected the Pacific Northwest to the rest of the country, opening up new markets for goods and enabling the efficient transportation of people and resources across long distances.`,
     1900: `The late 19th century saw a period of immense growth and development in the Pacific Northwest, fueled by the expansion of railways and the rise of industries such as logging, mining, and agriculture. The influx of settlers, fueled by the promise of economic opportunities, led to the establishment of towns and cities throughout the region. However, this period also witnessed tensions between different groups vying for control over land and resources.`,
     1921: `The early 20th century marked a continuation of the economic and societal transformations initiated by the railway boom of the late 19th century. The Pacific Northwest experienced further urbanization and industrialization, as well as social and political changes driven by factors such as immigration, labor movements, and technological advancements. Despite challenges such as economic recessions and environmental degradation, the region continued to thrive and evolve.`
+    1921: `Population density of the Pacific Northwest in 2006.`
 };
 
 // Initialize the Leaflet map when the document is ready
