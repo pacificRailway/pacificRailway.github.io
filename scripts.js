@@ -22,7 +22,18 @@ const pinsData = {
         { x: 885, y: 510, summary: "Puget Sound Agricultural Company (1852): Established by the Hudson's Bay Company, it played a significant role in the early economy of the region.", link: "https://en.wikipedia.org/wiki/Puget_Sound_Agricultural_Company" }
     ],
     1875: [
-        { x: 300, y: 350, summary: "Event 3", link: "/events/event3.html" },
+        { x: 1405, y: 1615, summary: "Northern Pacific Railway Chartered (1864): Congress chartered the Northern Pacific Railway to connect the Great Lakes with Puget Sound, stimulating investment and settlement.", link: "https://en.wikipedia.org/wiki/Northern_Pacific_Railway" },
+        { x: 410, y: 1560, summary: "Oregon Steam Navigation Company (1860): This company was formed to control river transport in the region, crucial for moving goods and people.", link: "https://en.wikipedia.org/wiki/Oregon_Steam_Navigation_Company" },
+        { x: 545, y: 3360, summary: "(Central California) Completion of the First Transcontinental Railroad (1869): This milestone increased national interest in connecting the Pacific Northwest to the broader rail network.", link: "https://en.wikipedia.org/wiki/First_transcontinental_railroad" },
+        { x: 600, y: 1625, summary: "Columbia River Ferry Service (1879): This ferry connection facilitated transport across the Columbia River, enhancing connectivity in the region.", link: "https://www.historylink.org/File/20952" },
+        { x: 630, y: 1750, summary: "Portland becomes a Major Rail Hub (1870s): Portland's strategic location on the Willamette River made it a key center for rail and shipping.", link: "https://en.wikipedia.org/wiki/History_of_Portland,_Oregon#Railroads_and_industrial_growth" },
+        { x: 1030, y: 1340, summary: "Seattle and Walla Walla Railroad (1873): This railroad aimed to connect Seattle to the rich agricultural lands of Eastern Washington.", link: "https://en.wikipedia.org/wiki/Seattle_and_Walla_Walla_Railroad" },
+        { x: 1430, y: 1110, summary: "Beginning of the Great Northern Railway (1879): James J. Hill began consolidating various rail lines, ultimately leading to the Great Northern Railway which would greatly impact the Pacific Northwest.", link: "https://en.wikipedia.org/wiki/Great_Northern_Railway_(U.S.)" },
+        { x: 1990, y: 2380, summary: "Boise, Idaho, Founded (1863): The establishment of Boise as a key supply point for miners and settlers enhanced regional development.", link: "https://en.wikipedia.org/wiki/Boise,_Idaho#History" },
+        { x: 865, y: 1740, summary: "Cascade Locks Construction (1878): The federal government constructed a system of canals and locks around the rough cascades of the Columbia river. All shipping previously had to portage (be carried over-land) around the rapids.", link: "https://www.oregonencyclopedia.org/articles/cascade_locks/" },
+        { x: 560, y: 1940, summary: "Oregon and California Railroad (1869): This railroad connected Portland to San Francisco, boosting trade and travel.", link: "https://en.wikipedia.org/wiki/Oregon_and_California_Railroad" },
+        { x: 720, y: 1245, summary: "Tacoma Founded (1864): The establishment of Tacoma as a port city was tied to its selection as the western terminus of the Northern Pacific Railway.", link: "https://en.wikipedia.org/wiki/Tacoma,_Washington#History" },
+        { x: 200, y: 3370, summary: "(Central California) Transcontinental Telegraph (1861): The completion of the telegraph connected the Pacific Northwest to the rest of the country, facilitating communication.", link: "https://en.wikipedia.org/wiki/First_transcontinental_telegraph" }
     ],
     1900: [
         { x: 400, y: 450, summary: "Event 4", link: "/events/event4.html" },
