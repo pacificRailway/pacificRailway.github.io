@@ -194,8 +194,3 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
 }
-
-#context-box {
-    width: 33%; /* Adjust the width as needed */
-    margin: 0 auto; /* Center the text box horizontally */
-}
