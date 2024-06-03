@@ -40,6 +40,9 @@ const pinsData = {
     ],
     1921: [
         { x: 500, y: 550, summary: "Event 5", link: "/events/event5.html" },
+    ],
+    2000: [
+        
     ]
 };
 
