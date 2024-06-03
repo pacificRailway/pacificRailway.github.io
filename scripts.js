@@ -26,6 +26,15 @@ const mapImages = {
     1921: '../images/1921_crop.png'
 };
 
+// Context information for each year
+const contextData = {
+    1839: "Context and key events for 1839.",
+    1855: "Context and key events for 1855.",
+    1875: "Context and key events for 1875.",
+    1900: "Context and key events for 1900.",
+    1921: "Context and key events for 1921."
+};
+
 // Initialize the Leaflet map when the document is ready
 document.addEventListener('DOMContentLoaded', () => {
     // Initialize the Leaflet map
@@ -61,6 +70,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Add the .selected class to the button corresponding to the selected year
         document.querySelector(`#map-controls button[data-year="${year}"]`).classList.add('selected');
+
+        // Update the context information
+        document.getElementById('context').textContent = contextData[year];
 
         // Clear existing pins
         map.eachLayer(layer => {
