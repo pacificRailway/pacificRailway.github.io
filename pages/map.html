@@ -18,6 +18,13 @@
             height: 100%;
             width: 100%;
         }
+        #map-controls {
+            margin-bottom: 10px;
+        }
+        #map-controls button.selected {
+            background-color: #007bff;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -39,29 +46,11 @@
         <section id="interactive-map">
             <h2>Interactive Map</h2>
             <div id="map-controls">
-                <button onclick="moveBackward()">◀</button>
-                <button onclick="showYear(1850)">1850</button>
+                <button onclick="showYear(1839)">1839</button>
                 <button onclick="showYear(1855)">1855</button>
-                <button onclick="showYear(1860)">1860</button>
-                <button onclick="showYear(1865)">1865</button>
-                <button onclick="showYear(1870)">1870</button>
                 <button onclick="showYear(1875)">1875</button>
-                <button onclick="showYear(1880)">1880</button>
-                <button onclick="showYear(1885)">1885</button>
-                <button onclick="showYear(1890)">1890</button>
-                <button onclick="showYear(1895)">1895</button>
                 <button onclick="showYear(1900)">1900</button>
-                <button onclick="showYear(1905)">1905</button>
-                <button onclick="showYear(1910)">1910</button>
-                <button onclick="showYear(1915)">1915</button>
-                <button onclick="showYear(1920)">1920</button>
-                <button onclick="showYear(1925)">1925</button>
-                <button onclick="showYear(1930)">1930</button>
-                <button onclick="showYear(1935)">1935</button>
-                <button onclick="showYear(1940)">1940</button>
-                <button onclick="showYear(1945)">1945</button>
-                <button onclick="showYear(1950)">1950</button>
-                <button onclick="moveForward()">▶</button>
+                <button onclick="showYear(1921)">1921</button>
             </div>
             <div id="map-container">
                 <div id="map"></div>

@@ -1,14 +1,29 @@
 // Updated pinsData object with corrected syntax
 const pinsData = {
-    1850: [
-        {x: 100, y: 150, summary: "Event 1", link: "/events/event1.html" },
+    1839: [
+        { x: 100, y: 150, summary: "Event 1", link: "/events/event1.html" },
     ],
     1855: [
-        {x: 200, y: 250, summary: "Event 2", link: "/events/event2.html" },
+        { x: 200, y: 250, summary: "Event 2", link: "/events/event2.html" },
     ],
-    1860: [
-        {x: 300, y: 350, summary: "Event 3", link: "/events/event3.html" },
+    1875: [
+        { x: 300, y: 350, summary: "Event 3", link: "/events/event3.html" },
+    ],
+    1900: [
+        { x: 400, y: 450, summary: "Event 4", link: "/events/event4.html" },
+    ],
+    1921: [
+        { x: 500, y: 550, summary: "Event 5", link: "/events/event5.html" },
     ]
+};
+
+// Updated mapImages object to store map images for different years
+const mapImages = {
+    1839: '../images/1839_crop.png',
+    1855: '../images/1855_crop.png',
+    1875: '../images/1875_crop.png',
+    1900: '../images/1900_crop.png',
+    1921: '../images/1921_crop.png'
 };
 
 // Initialize the Leaflet map when the document is ready
@@ -25,16 +40,27 @@ document.addEventListener('DOMContentLoaded', () => {
     // Define the image bounds (top-left and bottom-right corners)
     const imageBounds = [[0, 0], [5500, 6500]]; // Adjust these values to match your image dimensions
 
-    // Add the image overlay
-    const imageUrl = '../images/pnw-map.png'; // Correct relative path
-    L.imageOverlay(imageUrl, imageBounds).addTo(map);
+    // Add the initial image overlay
+    const initialImageUrl = mapImages[1839];
+    let imageLayer = L.imageOverlay(initialImageUrl, imageBounds).addTo(map);
 
     // Set the initial view to show the whole image
     map.fitBounds(imageBounds);
 
-    // Function to show pins for the selected year
+    // Function to show pins for the selected year and change the map image
     function showYear(year) {
         console.log(`Showing information for the year ${year}`);
+
+        // Change the map image
+        imageLayer.setUrl(mapImages[year]);
+
+        // Remove the .selected class from all buttons
+        document.querySelectorAll('#map-controls button').forEach(button => {
+            button.classList.remove('selected');
+        });
+
+        // Add the .selected class to the button corresponding to the selected year
+        document.querySelector(`#map-controls button[data-year="${year}"]`).classList.add('selected');
 
         // Clear existing pins
         map.eachLayer(layer => {
@@ -56,30 +82,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Initialize with the first year
-    showYear(1850);
+    showYear(1839);
 
     // Attach showYear function to window for button clicks
     window.showYear = showYear;
 });
-
-function moveForward() {
-    // Get the currently selected year
-    var currentYear = parseInt(document.querySelector('#map-controls .selected').textContent);
-
-    // Increment the year by 5 and ensure it does not exceed 1950
-    var newYear = Math.min(currentYear + 5, 1950);
-
-    // Call the showYear function with the new year
-    showYear(newYear);
-}
-
-function moveBackward() {
-    // Get the currently selected year
-    var currentYear = parseInt(document.querySelector('#map-controls .selected').textContent);
-
-    // Decrement the year by 5 and ensure it does not go below 1850
-    var newYear = Math.max(currentYear - 5, 1850);
-
-    // Call the showYear function with the new year
-    showYear(newYear);
-}
