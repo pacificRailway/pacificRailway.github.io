@@ -18,13 +18,6 @@
             height: 100%;
             width: 100%;
         }
-        #map-controls {
-            margin-bottom: 10px;
-        }
-        #map-controls button.selected {
-            background-color: #007bff;
-            color: white;
-        }
     </style>
 </head>
 <body>
@@ -46,11 +39,11 @@
         <section id="interactive-map">
             <h2>Interactive Map</h2>
             <div id="map-controls">
-                <button onclick="showYear(1839)">1839</button>
-                <button onclick="showYear(1855)">1855</button>
-                <button onclick="showYear(1875)">1875</button>
-                <button onclick="showYear(1900)">1900</button>
-                <button onclick="showYear(1921)">1921</button>
+                <button data-year="1839" onclick="showYear(1839)">1839</button>
+                <button data-year="1855" onclick="showYear(1855)">1855</button>
+                <button data-year="1875" onclick="showYear(1875)">1875</button>
+                <button data-year="1900" onclick="showYear(1900)">1900</button>
+                <button data-year="1921" onclick="showYear(1921)">1921</button>
             </div>
             <div id="map-container">
                 <div id="map"></div>
