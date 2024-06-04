@@ -77,7 +77,7 @@ const mapImages = {
     1875: '../images/1875_crop.png',
     1900: '../images/1900_crop.png',
     1921: '../images/1921_crop.png',
-    2000: '../images/grid_test.png'
+    2000: '../images/2006_crop.png'
 };
 
 // Context information for each year
