@@ -5,7 +5,19 @@ const pinsData = {
         { x: 550, y: 2575, summary: "Astoria Established (1811): John Jacob Astor's Pacific Fur Company established Astoria, the first American settlement on the Pacific coast.", link: "https://en.wikipedia.org/wiki/Astoria,_Oregon#History" },
         { x: 260, y: 2761, summary: "Oregon Trail (1830s): The establishment of the Oregon Trail facilitated westward migration and increased interest in the Pacific Northwest.", link: "https://en.wikipedia.org/wiki/Oregon_Trail" },
         { x: 462, y: 2775, summary: "Fort Vancouver (1824): The Hudson's Bay Company established Fort Vancouver, becoming a central hub for the fur trade in the region.", link: "https://en.wikipedia.org/wiki/Fort_Vancouver" },
-        { x: 350, y: 2155, summary: "Treaty of 1818: This treaty allowed for joint occupation of the Oregon Territory by the United States and Great Britain, setting the stage for future negotiations and settlement.", link: "https://en.wikipedia.org/wiki/Treaty_of_1818" }
+        { x: 350, y: 2155, summary: "Treaty of 1818: This treaty allowed for joint occupation of the Oregon Territory by the United States and Great Britain, setting the stage for future negotiations and settlement.", link: "https://en.wikipedia.org/wiki/Treaty_of_1818" },
+        { x: 100, y: 100, summary: "100 x 100" },
+        { x: 300, y: 300, summary: "300 x 300" },
+        { x: 500, y: 500, summary: "500 x 500" },
+        { x: 1000, y: 1000, summary: "1000 x 1000" },
+        { x: 2000, y: 2000, summary: "2000 x 2000" },
+        { x: 1000, y: 100, summary: "1000 x 100" },
+        { x: 100, y: 1000, summary: "100 x 1000" },
+        { x: 4774, y: 3393, summary: "-100 x -100" },
+        { x: 4574, y: 3193, summary: "-300 x -300" },
+        { x: 4274, y: 2893, summary: "-600 x -600" },
+        { x: 3874, y: 2493, summary: "-1000 x -1000" },
+        { x: 2874, y: 3293, summary: "-2000 x -200" }
     ],
     1855: [
         { x: 660, y: 730, summary: "Oregon Trail Peak Migration (1840-1860): Thousands of settlers traveled west, increasing demand for transportation and infrastructure.", link: "https://en.wikipedia.org/wiki/Oregon_Trail#Usage" },
