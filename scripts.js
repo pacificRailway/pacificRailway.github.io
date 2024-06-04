@@ -42,7 +42,13 @@ const pinsData = {
         { x: 500, y: 550, summary: "Event 5", link: "/events/event5.html" },
     ],
     2000: [
-        
+        { x: 100, y: 100, summary: "100 x 100" },
+        { x: 300, y: 300, summary: "300 x 300" },
+        { x: 500, y: 500, summary: "500 x 500" },
+        { x: 1000, y: 1000, summary: "1000 x 1000" },
+        { x: 2000, y: 2000, summary: "2000 x 2000" },
+        { x: 1000, y: 100, summary: "1000 x 100" },
+        { x: 100, y: 1000, summary: "100 x 1000" }
     ]
 };
 
