@@ -9,11 +9,11 @@ const pinsData = {
     ],
     1855: [
         { x: 2400, y: 3200, summary: "Oregon Trail Peak Migration (1840-1860): Thousands of settlers traveled west, increasing demand for transportation and infrastructure.", link: "https://en.wikipedia.org/wiki/Oregon_Trail#Usage" },
-        { x: 2825, y: 3050, summary: "Whitman Mission Established (1836): Dr. Marcus Whitman established a mission in Walla Walla, fostering early settlement and conflict.", link: "https://en.wikipedia.org/wiki/Whitman_Mission" },
+        { x: 2825, y: 3100, summary: "Whitman Mission Established (1836): Dr. Marcus Whitman established a mission in Walla Walla, fostering early settlement and conflict.", link: "https://en.wikipedia.org/wiki/Whitman_Mission" },
         { x: 1400, y: 3000, summary: "Oregon Territory Created (1848): The United States established the Oregon Territory, formalizing American claims in the region.", link: "https://en.wikipedia.org/wiki/Oregon_Territory" },
         { x: 600, y: 1400, summary: "California Gold Rush (1848-1855): The influx of people to California heightened interest in the Pacific Northwest as a transportation route.", link: "https://en.wikipedia.org/wiki/California_Gold_Rush" },
         { x: 1900, y: 2400, summary: "Donation Land Claim Act (1850): This act encouraged settlement in Oregon by offering land to pioneers, increasing population and economic activity.", link: "https://en.wikipedia.org/wiki/Donation_Land_Claim_Act" },
-        { x: 2000, y: 2800, summary: "Fort Dalles Established (1850): Fort Dalles served as a supply center and military post, aiding in the protection and development of the area.", link: "https://en.wikipedia.org/wiki/Fort_Dalles" },
+        { x: 1900, y: 3000, summary: "Fort Dalles Established (1850): Fort Dalles served as a supply center and military post, aiding in the protection and development of the area.", link: "https://en.wikipedia.org/wiki/Fort_Dalles" },
         { x: 5100, y: 700, summary: "Pacific Railroad Surveys (1853-1855): Surveys were conducted to find the best routes for a transcontinental railroad, highlighting the importance of the Pacific Northwest.", link: "https://en.wikipedia.org/wiki/Pacific_Railroad_Surveys" },
         { x: 1500, y: 4030, summary: "Territory of Washington Created (1853): The creation of Washington Territory facilitated more focused governance and development efforts.", link: "https://en.wikipedia.org/wiki/Washington_Territory" },
         { x: 1600, y: 4050, summary: "Treaty of Medicine Creek (1854): This treaty with local Native American tribes aimed to secure land for settlers, though it led to significant conflict.", link: "https://en.wikipedia.org/wiki/Treaty_of_Medicine_Creek" },
