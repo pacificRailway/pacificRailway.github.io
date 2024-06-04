@@ -1,11 +1,11 @@
 // Updated pinsData object with corrected syntax
 const pinsData = {
     1839: [
-        { x: 1765, y: 1285, summary: "Lewis and Clark Expedition (1804-1806): The expedition mapped the Pacific Northwest and provided valuable information about the region.", link: "https://en.wikipedia.org/wiki/Lewis_and_Clark_Expedition" },
-        { x: 920, y: 1135, summary: "Astoria Established (1811): John Jacob Astor's Pacific Fur Company established Astoria, the first American settlement on the Pacific coast.", link: "https://en.wikipedia.org/wiki/Astoria,_Oregon#History" },
-        { x: 2105, y: 1425, summary: "Oregon Trail (1830s): The establishment of the Oregon Trail facilitated westward migration and increased interest in the Pacific Northwest.", link: "https://en.wikipedia.org/wiki/Oregon_Trail" },
-        { x: 1270, y: 1445, summary: "Fort Vancouver (1824): The Hudson's Bay Company established Fort Vancouver, becoming a central hub for the fur trade in the region.", link: "https://en.wikipedia.org/wiki/Fort_Vancouver" },
-        { x: 1850, y: 460, summary: "Treaty of 1818: This treaty allowed for joint occupation of the Oregon Territory by the United States and Great Britain, setting the stage for future negotiations and settlement.", link: "https://en.wikipedia.org/wiki/Treaty_of_1818" }
+        { x: 342, y: 2670, summary: "Lewis and Clark Expedition (1804-1806): The expedition mapped the Pacific Northwest and provided valuable information about the region.", link: "https://en.wikipedia.org/wiki/Lewis_and_Clark_Expedition" },
+        { x: 550, y: 2575, summary: "Astoria Established (1811): John Jacob Astor's Pacific Fur Company established Astoria, the first American settlement on the Pacific coast.", link: "https://en.wikipedia.org/wiki/Astoria,_Oregon#History" },
+        { x: 260, y: 2761, summary: "Oregon Trail (1830s): The establishment of the Oregon Trail facilitated westward migration and increased interest in the Pacific Northwest.", link: "https://en.wikipedia.org/wiki/Oregon_Trail" },
+        { x: 462, y: 2775, summary: "Fort Vancouver (1824): The Hudson's Bay Company established Fort Vancouver, becoming a central hub for the fur trade in the region.", link: "https://en.wikipedia.org/wiki/Fort_Vancouver" },
+        { x: 350, y: 2155, summary: "Treaty of 1818: This treaty allowed for joint occupation of the Oregon Territory by the United States and Great Britain, setting the stage for future negotiations and settlement.", link: "https://en.wikipedia.org/wiki/Treaty_of_1818" }
     ],
     1855: [
         { x: 660, y: 730, summary: "Oregon Trail Peak Migration (1840-1860): Thousands of settlers traveled west, increasing demand for transportation and infrastructure.", link: "https://en.wikipedia.org/wiki/Oregon_Trail#Usage" },
