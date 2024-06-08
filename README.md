@@ -1,4 +1,4 @@
 # pacificRailway.github.io
-THIST444 Website
+THIST444 Website.
 
 View Index.
